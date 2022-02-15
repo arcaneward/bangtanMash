@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
+  <title>방탄소년단 M.A.S.H.</title>
+    <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="logo"><img src="icons8-bts-army-256.png" /></h1>
+  <p class="description">Fill out the form to see your future.</p>
+
+<form action="" method="post" id="mash">
+
+  <div id="answers" class="hide">
+      <p>You live in <span id="location"></span> with <span id="bts"></span> and a <span id="pet"></span> as you are a <span id="job"></span> who owns a <span id="home"></span>.
+  </div>
+
+  <div class="bucket">
+  
+    <div class="choice-bucket">
+      <h4 class="highlight">Enter 3 locations:</h4>
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+      </div>
+
+      <div class="choice-bucket">
+        <h4 class="highlight">Enter 3 occupations:</h4>
+          <input name="job[]" type="text">
+          <input name="job[]" type="text">
+          <input name="job[]" type="text">
+      </div>
+      
+     <div class="choice-bucket">
+        <h4 class="highlight">Enter 3 pets:</h4>
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+      </div>
+
+  </div>
+
+  <input type="submit" value="Predict my future!">
+</form>
+<footer>
+  <p>BTS Army logo: <a href="https://icons8.com/">icons8.com</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
