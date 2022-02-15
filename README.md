@@ -1,5 +1,5 @@
 # bangtanMash
-<a href="https://lin-dsey.github.io/bangtanMash" target="_blank">View on github pages</a>.<br>
+<a href="https://lind-sey.neocities.org/mash/" target="_blank">Play</a><br>
 방탄소년단 themed version of the classic children's game, based on the Team Treehouse course
 
 MASH is a multiplayer paper-and-pencil game commonly played by children intended to predict one's future. The name is an acronym of "Mansion, Apartment, Shack, and House".
