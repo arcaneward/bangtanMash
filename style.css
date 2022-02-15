@@ -1,0 +1,95 @@
+body {
+  font-family: Helvetica, Arial;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  background: rgb(198,180,253);
+  color: rgb(102,85,251);
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 40px 10px;
+}
+footer {
+  color: rgb(102,85,251);
+  font-size: 13px;
+  text-align: center;
+  font-weight: 300;
+  padding: 3px;
+}
+.description {
+  margin: 40px auto 0px; 
+  text-align: center;
+}
+.bucket {
+  width: 100%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.choice-bucket {
+  width: 33.333333%;
+  float: left; 
+  /* display: inline-block; */
+  margin: 0;
+  padding: 0;
+}
+.choice-bucket input {
+    font-size: 0.8em;
+    margin: 15px 4%;
+    padding: 16px 0;
+    width: 90%;
+    color: rgb(102,85,251);
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    text-indent: 15px;
+}
+.highlight {
+  font-size: 0.75em;
+  margin-left: 30px;
+  opacity: .8;
+  line-height: 24px;
+  font-weight: 300;
+}
+#answers {
+    margin: 60px 0px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 30px;
+    color: rgb(102,85,251);
+    transition: 1.5s linear;
+    overflow: hidden;
+}
+#answers p {
+  max-width: 650px;
+  margin: auto;
+  padding: 80px 0;
+}
+#answers p span {
+  font-weight: bold;
+}
+form input[type=submit] {
+    background: rgb(137,194,233);
+    border: 0;
+    color: #fff;
+    font-size: 19px;
+    padding: 1em 2em;
+    margin: 0 auto 60px;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+}
+.logo {
+  width: 100%;
+}
+.logo img {
+  margin: 0 auto;
+  display: block;
+}
+.hide {
+  opacity: 0;
+  height: 0;
+}
+.show {
+  opacity: 1;
+  height: 100%;
+}
